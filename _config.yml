@@ -33,6 +33,7 @@ github_username:  rajattjainn
 theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
+markdown: kramdown
 
 collections:
   posts:
