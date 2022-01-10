@@ -21,9 +21,7 @@
 title: Rajat Jain
 email: addresseerajat@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This website's purpose is to capture the creatives I write, my thoughts 
-  and learnings accumulated over time, and various tech blogs I write during my
-  upskilling journey.
+  Choice. The Problem is Choice. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rajattjainn
