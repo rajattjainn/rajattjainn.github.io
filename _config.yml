@@ -28,11 +28,11 @@ twitter_username: rajattjainn
 github_username:  rajattjainn
 
 # Build settings
-theme: jekyll-theme-hydejack
+# theme: jekyll-theme-hydejack
 # remote_theme: benbalter/retlab
 # plugins:
   # - jekyll-feed
-remote_theme: pages-themes/architect@v0.2.0
+remote_theme: pages-themes/slate@v0.2.0
 plugins:
   - jekyll-remote-theme
 markdown: kramdown
