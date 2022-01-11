@@ -29,14 +29,21 @@ github_username:  rajattjainn
 
 # Build settings
 theme: jekyll-theme-hydejack
+# remote_theme: benbalter/retlab
+# plugins:
+  # - jekyll-feed
+remote_theme: pages-themes/architect@v0.2.0
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
 markdown: kramdown
 
 collections:
   posts:
     output: true
     permalink: /blog/:title
+
+# Fix warning for API authentication failure
+github: [metadata]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
