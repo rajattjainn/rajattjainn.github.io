@@ -1,7 +1,7 @@
 ---
 layout: default
-title: thomasstep.com
-show_mailchimp_signup: true
+title: Rajat Jain
+
 ---
 
 <p style="text-align: center;font-size:25px"><b>Creatives</b></p>
