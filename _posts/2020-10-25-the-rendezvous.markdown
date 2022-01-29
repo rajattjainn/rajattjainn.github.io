@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Rendezvous"
-description: "Sitting next to woman in Air India"
+description: "Hitting upon your old crush"
 redirect_from:
   - /2020/10/25/
 ---
