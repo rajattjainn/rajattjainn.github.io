@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<style>
+div.a{
+     font-size:16px;
+}
+</style>
+
+<div class = "a">
+{{content}}
+</div>
+
+<!-- {% if page.tags %}
+     <small>Categories:
+     {% for tag in page.tags %}
+          <a href="/categories#{{ tag }}">{{ tag }}</a>
+          {% unless forloop.last %}
+               |
+          {% endunless %}
+     {% endfor %}
+     </small>
+{% endif %} -->
+

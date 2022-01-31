@@ -35,6 +35,9 @@ markdown: kramdown
 collections:
   posts:
     output: true
+    permalink: /creatives/:title
+  blog:
+    output: true
     permalink: /blog/:title
 
 # Fix warning for API authentication failure

@@ -4,12 +4,12 @@ title: Rajat Jain
 
 ---
 
-<p style="text-align: center;font-size:25px"><b>Creatives</b></p>
+<p style="text-align: center;font-size:25px"><b>Blog</b></p>
 
 
 
-{% for post in site.posts %}
-  <p><a href="{{ post.url }}">{{ post.title }}</a> <br> {{ post.date | date: "%-d %B %Y" }}</p>
-  {% assign tcategories = post.tags | join:'|' | append:'|' %}
+{% for blog in site.blog %}
+  <p><a href="{{ blog.url }}">{{ blog.title }}</a> <br> {{ blog.date | date: "%-d %B %Y" }}</p>
+  {% assign tcategories = blog.tags | join:'|' | append:'|' %}
   {% assign rawcategories = rawcategories | append:tcategories %}
 {% endfor %}
