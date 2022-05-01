@@ -1,0 +1,2 @@
+- Upload resume on github.io
+- Update the website
