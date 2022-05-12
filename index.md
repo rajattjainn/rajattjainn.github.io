@@ -1,7 +1,10 @@
 ---
-layout: default
-title: Home
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: page
 ---
+👋, I am Rajat Jain.
 
 ## Introduction
 
@@ -16,3 +19,4 @@ I also have a [creative](/creatives) flair and tend to write small write-ups eve
 My email addresses are rajatt.jainn@gmail.com or addresseerajat@gmail.com.
 
 You can also reach out to me on [Twitter](https://twitter.com/RajattJainn) and [LinkedIn](https://www.linkedin.com/in/rajattjainn/). Feel free to follow or connect with me and I will reciprocate.
+
