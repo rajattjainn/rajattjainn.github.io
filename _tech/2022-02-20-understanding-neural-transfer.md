@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Understanding Neural Transfer"
 description: "Learnings while reproducing an open source code-base corresponding to Neural Transfer"
 redirect_from:

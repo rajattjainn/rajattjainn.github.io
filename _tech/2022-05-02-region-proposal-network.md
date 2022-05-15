@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Region Proposal Network"
 description: ""
 redirect_from:

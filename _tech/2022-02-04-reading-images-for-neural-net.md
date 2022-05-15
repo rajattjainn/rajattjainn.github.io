@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Reading Images for Neural Net"
 description: ""
 redirect_from:

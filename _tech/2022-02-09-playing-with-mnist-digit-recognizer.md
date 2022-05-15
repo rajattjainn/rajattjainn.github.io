@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Playing with a MNIST digit recognizer"
 description: "Reproducing MNIST digit recognizer. This is a basic project, just to get hands dirty in ML."
 redirect_from:
