@@ -1,8 +1,9 @@
 ---
-layout: default
-title: Rajat Jain
-
+layout: blog
+title: Creatives
+permalink: /creatives/
 ---
+
 
 <p style="text-align: center;font-size:25px"><b>Creatives</b></p>
 
