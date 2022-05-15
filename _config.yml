@@ -23,14 +23,22 @@ github_username:  rajattjainnn
 
 
 header_pages:
-  - _pages/knowledge.md
+  - _pages/tech.md
   - _pages/interpersonal.md
   - _pages/creatives.md
   - _pages/cv.md
 
+collections:
+  tech:
+    output: true
+  interpersonal:
+    output: true
+  creatives:
+    output: true
 
 include:
   - _pages
+  - _tech
 
 
 defaults:
