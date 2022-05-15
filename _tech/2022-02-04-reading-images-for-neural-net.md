@@ -4,6 +4,8 @@ title: "Reading Images for Neural Net"
 description: ""
 redirect_from:
   - /2022/02/04/
+tags: notes
+date: 22-02-04
 
 ---
 

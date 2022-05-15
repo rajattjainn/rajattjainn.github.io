@@ -4,6 +4,8 @@ title: "Understanding Neural Transfer"
 description: "Learnings while reproducing an open source code-base corresponding to Neural Transfer"
 redirect_from:
   - /2022/02/20/
+tags: notes
+date: 22-02-20
 
 ---
 

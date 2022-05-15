@@ -5,6 +5,8 @@ categories: [notes]
 description: ""
 redirect_from:
   - /2022/05/12/
+tags: notes
+date: 22-05-12
 
 ---
 

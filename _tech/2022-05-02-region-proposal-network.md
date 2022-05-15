@@ -4,6 +4,8 @@ title: "Region Proposal Network"
 description: ""
 redirect_from:
   - /2022/05/02/
+tags: notes
+date: 22-05-02
 
 ---
 
