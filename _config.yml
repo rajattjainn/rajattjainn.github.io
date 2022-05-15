@@ -21,11 +21,24 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rajattjainn
 github_username:  rajattjainnn
 
+
+header_pages:
+  - _pages/knowledge.md
+  - _pages/interpersonal.md
+  - _pages/creatives.md
+  - _pages/cv.md
+
+
+include:
+  - _pages
+
+
 defaults:
   - scope:
       path: ""
     values:
       image: https://rajattjainn.github.io/assets/img/rajat.png
+
 
 twitter:
   username: rajattjainn
