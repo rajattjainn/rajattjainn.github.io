@@ -6,7 +6,7 @@ layout: page
 ---
 Hi, I am Rajat Jain.
 
-I started my professional journey in May 2014 and have worked in 4 startups since - ranging from a company size of 4 to a company size of 1,000 members.
+I started my professional journey in May 2014 and have worked at 4 startups since - ranging from a company size of 4 to a company size of 1,000.
 
 I want to build my career in Computer Graphics and use Machine Learning as one of the tools to move forward in the industry.
 
