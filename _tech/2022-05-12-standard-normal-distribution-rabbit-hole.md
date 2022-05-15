@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Standard Normal Distribution Rabbit Hole"
-categories: [notes]
 description: ""
 redirect_from:
   - /2022/05/12/
