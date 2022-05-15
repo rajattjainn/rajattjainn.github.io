@@ -1,6 +1,12 @@
-### May 13, 2022
+---
+layout: post
+title: "Making a Fresh Start, with GANs"
+description: ""
+redirect_from:
+  - /2022/05/13/
 
-**Title:** Fresh Start with GANs.
+---
+
 
 
 **Thought Process** I have been playing with YOLO, the first algorithm I tried to learn in my CV journey, for more than a month now. While writing the code for Object Detection, I followed one blog. After reproducing the results, I thought of training the algorithm for a different set of classes - use transfer learning for different dataset.
@@ -20,8 +26,5 @@ Template:
 	- Visualize test data
 	- Image Augmentation
 - No shortcuts
-- Daily, regular entries in <LogBook>
----
-
-**Ref:** https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+- Daily, regular entries in Tech Blog
 
