@@ -2,8 +2,7 @@
 layout: post
 title: "Region Proposal Network"
 description: ""
-redirect_from:
-  - /2022/05/02/
+date: 22-05-02
 
 ---
 
