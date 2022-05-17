@@ -9,6 +9,8 @@ My latest resume can be downloaded from <a href="/assets/cv.pdf">here</a>.
 
 Below is a detailed summary of my technical experience.
 
+---
+
 ### Upskilling (Jan 2022 - Present)
 - GAN(s): Implement DCGAN from scratch for  “Celeb-A Faces dataset”
 - Object Detection: Implement Yolo v3 algorithm from scratch for the COCO dataset. Use Transfer Learning to detect a different set of objects, achieving an mAP of 55%.
