@@ -23,6 +23,8 @@ Template:
 	- Have training and evaluation graphs to publish
 	- Visualize test data
 	- Image Augmentation
+	- different optimizers
+	- change the size of input noise
 - No shortcuts
 - Daily, regular entries in Tech Blog
 
