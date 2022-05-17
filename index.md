@@ -14,6 +14,6 @@ I also have a [creative](/creatives) flair and tend to write small write-ups eve
 
 ## Contact
 
-My email addresses are rajatt.jainn@gmail.com or addresseerajat@gmail.com.
+My email addresses are [rajatt.jainn@gmail.com](mailto:rajatt.jainn@gmail.com) or [addresseerajat@gmail.com](mailto:addresseerajat@gmail.com).
 
 You can also reach out to me on [Twitter](https://twitter.com/RajattJainn) and [LinkedIn](https://www.linkedin.com/in/rajattjainn/).
