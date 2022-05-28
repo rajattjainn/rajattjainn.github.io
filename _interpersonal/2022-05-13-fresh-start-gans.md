@@ -2,8 +2,6 @@
 layout: post
 title: "Making a Fresh Start, with GANs"
 description: ""
-redirect_from:
-  - /2022/05/13/
 
 ---
 
