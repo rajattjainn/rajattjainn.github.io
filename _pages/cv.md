@@ -12,7 +12,7 @@ Below is a detailed summary of my technical experience.
 ---
 
 ### Upskilling (Jan 2022 - Present)
-- GAN(s): Implement DCGAN from scratch for  “Celeb-A Faces dataset”
+- [GAN](/_tech/2022-06-07-gans.html)(s): Implement DCGAN from scratch for  “Celeb-A Faces dataset”
 - Object Detection: Implement Yolo v3 algorithm from scratch for the COCO dataset. Use Transfer Learning to detect a different set of objects, achieving an mAP of 55%.
 
 ### Career Break (August 2021 - Present)
