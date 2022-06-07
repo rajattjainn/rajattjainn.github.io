@@ -2,7 +2,6 @@
 layout: post
 title: "Reading Images for Neural Net"
 description: ""
-tags: notes
 date: 22-02-04
 
 ---

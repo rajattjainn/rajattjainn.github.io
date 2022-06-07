@@ -2,7 +2,6 @@
 layout: post
 title: "Playing with a MNIST digit recognizer"
 description: "Reproducing MNIST digit recognizer. This is a basic project, just to get hands dirty in ML."
-tags: notes
 date: 22-02-09
 
 ---

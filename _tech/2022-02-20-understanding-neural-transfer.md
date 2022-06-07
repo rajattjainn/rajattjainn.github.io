@@ -2,7 +2,6 @@
 layout: post
 title: "Understanding Neural Transfer"
 description: "Learnings while reproducing an open source code-base corresponding to Neural Transfer"
-tags: notes
 date: 22-02-20
 
 ---
