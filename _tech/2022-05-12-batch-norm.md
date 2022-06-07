@@ -6,7 +6,7 @@ date: 22-05-12
 
 ---
 
-**Normalsation:** Normalization is a method that converts any data into one having similar scale (across varioius dimensions) and having a similar distribution. There are various ways of normalization, z-score normalization being one of the most widely used. Also known as standardization and a lot of times just reffered to as normalization, this is attained by subtracting the mean from all data points and dividing each data point by the standard deviation.
+**Normalsation:** Normalization is a method that converts any data into one having similar scale (across varioius dimensions) and having a similar distribution. There are various ways of normalization, z-score normalization being one of the most widely used. Also known as standardization and a lot of times just reffered to as normalization, this is attained by subtracting the mean from all data points and dividing each data point by the standard deviation. <br>
 ![Normalization](/assets/imgs/normalization.png)
 
 ### Batch Normalization

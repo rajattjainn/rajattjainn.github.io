@@ -10,9 +10,9 @@ BCE stands for Binary Cross Entropy. As the name suggestes, BCE Loss is used dur
 
 ### Mathematical Formula and Explanation
 The BCE Loss formula is given as: <br>
-![BCE Loss Formula](assets/imgs/bce_loss.png)
+![BCE Loss Formula](/assets/imgs/bce_loss.png)
 
-There are two outputs in a binary classification: the event when the output is predicted to be y<sub>i</sub>, and when the output is predicted NOT y<sub>i</sub>, i.e. (1-y<sub>i</sub>). In the above expression, $\hat{y}$ <sub>i</sub> is the probability that the outcome of the experiment is y<sub>i</sub>. Similarly, (1 - $\hat{y}$) is the probability that the event is not y<sub>i</sub>.<br>
+There are two inputs in a binary classification: the event when the output is predicted to be y<sub>i</sub>, and when the output is predicted NOT y<sub>i</sub>, i.e. (1-y<sub>i</sub>). In the above expression, y_hat<sub>i</sub> is the probability that the outcome of the experiment is y<sub>i</sub>. Similarly, (1 - y_hat) is the probability that the event is not y<sub>i</sub>.<br>
 ### Implementing BCE Loss
 Let's say that our training set is a bunch of numbers (features) having a label (green or red). The training set is shown below:
 
@@ -22,7 +22,7 @@ Let's say we train a function on the above dataset depicted in the following fig
 
 ![BCE Implementation Trained Function](/assets/imgs/bce_imp_train_func.png)
 
-Now, while calculating the loss of the trained function, we replace the values of $\hat{y}$(s) and y<sub>i</sub>(s) in the above loss function; y<sub>i</sub>(s) coming from the training data (1 when the label is green and 0 when the label is not, i.e. the label is red), and $\hat{y}$(s) being the output of the learned function.
+Now, while calculating the loss of the trained function, we replace the values of y_hat(s) and y<sub>i</sub>(s) in the above loss function; y<sub>i</sub>(s) coming from the training data (1 when the label is green and 0 when the label is not, i.e. the label is red), and y_hat(s) being the output of the learned function, i.e. the probability.
 
 ---
 

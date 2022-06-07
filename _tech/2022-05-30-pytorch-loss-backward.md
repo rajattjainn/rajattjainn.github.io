@@ -6,7 +6,7 @@ date: 22-05-30
 
 ---
 
-For a long time, I didn't understand how does loss.backward() work. I referred to multiple blogs and SO questions, but somehow the underlying concept was always elusive. Following is a synthesis of various notes I have made over months in my pursuit to understand the functionality behind `loss.backward`.
+For a long time, I didn't understand how does `loss.backward()` work. I referred to multiple blogs and SO questions, but somehow the underlying concept was always elusive. Following is a synthesis of various notes I have made over months in my pursuit to understand the functionality behind `loss.backward`.
 
 ### Code - Pseudo and non-Pseudo
 1. Define a neural network. We'll use `net` to refer to the network.
@@ -14,24 +14,26 @@ For a long time, I didn't understand how does loss.backward() work. I referred t
 3. Feed your `input` to the `net` in order to retrieve `output`.
 4. Use ground truth data - `label` - to calculate `loss`.
 5. Use `optimiser.step()` to update the parameters of the neural network.
-> net = Net()
-> net.zero_grad()
-> criterion = nn.BCELoss()
-> output = net(input)
-> loss = criterion(output, label)
-> loss.backward()
-> optimiser.step()
 
-### What's happening under the hood ?
+```
+net = Net()
+net.zero_grad()
+criterion = nn.BCELoss()
+output = net(input)
+loss = criterion(output, label)
+loss.backward()
+optimiser.step()
+```
+
 The neural net, `net`, can be thought of as a computational graph. In fact, if were to use `grad_fn` attribute of `loss`, then we can walkthrough the computation graph of the network. 
 
 #### Calling loss.backward()
 Now, when we call the `loss.backward()` function, entire graph, (i.e. all the layers which create the neural network, e.g. conv layer, liner layer, etc) is differentiated with respect to the loss; the value of loss being calculated earlier using criterion as shown above. 
-These gradient values are stored in the `net` itself. Every tensor stores some info about how to calculate the gradient and the gradient itself. Remember, each layer in the `net` is a `tensor` itself. Hence, after `loss.backward()` has been called, each tensor (i.e. each layer) contains the gradient value for that tensor.
+These gradient values are stored in the `net` itself. Every tensor stores some info about how to calculate the gradient and the gradient itself. Remember, each layer in the `net` has parameters (weights), and weights are stored in a `tensor` object. Hence, after `loss.backward()` has been called, each tensor (i.e. weights in each layer) contains the gradient value for that tensor.
 
 #### How does loss.backward() identify the network to be differentiated ?
 The answer to this question is very obvious, but it was not visible to my eyes. I could have created just another object of `Net`, let's say `net2` below `net`.  How would Pytorch know which network object is to be differentiated ?
-I didn't find an answer to the above question anywhere on the web. While experimenting (as suggested in the above paragraph), I realized that there must be some sort of reference mechanism involved which guides Pytorch to identify the network to be differentiated.
+I didn't find an answer to the above question anywhere on the web. While experimenting (with `net2`), I realized that there must be some sort of reference mechanism involved which guides Pytorch to identify the network to be differentiated.
 
 While calculating `loss`, we pass `output`  to `criterion`. Similarly, the `output` is calculated using `net`. So we can assume that `loss` has some kind of a reference to `net`, and not to `net2`. When we call `loss.backward()`, Pytorch knows that `net` has to be differentiated, not `net2`.
 
@@ -48,6 +50,5 @@ Another reason to call `net.zero_grad()` is to free up memory. If we don't call 
 
 ---
 **References**
-1. [Neural Networks](http://seba1511.net/tutorials/beginner/blitz/neural_networks_tutorial.html#neural-networks "Permalink to this headline")]
+1. [Neural Networks](http://seba1511.net/tutorials/beginner/blitz/neural_networks_tutorial.html#neural-networks "Permalink to this headline")
 2. [Connection between loss.backward() and optimizer.step()](https://stackoverflow.com/questions/53975717/pytorch-connection-between-loss-backward-and-optimizer-step)
-3. 

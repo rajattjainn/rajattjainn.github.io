@@ -9,8 +9,9 @@ The explanation/details of a transposed convolution can be found in the referenc
 
 The output of a transpose convolution layer is given as:
 
-> [(Input Size - 1) * Strides] + Filter Size - (2 * Padding) + Ouput Padding
-
+```
+[(Input Size - 1) * Strides] + Filter Size - (2 * Padding) + Ouput Padding
+```
 
 ---
 **References:**
