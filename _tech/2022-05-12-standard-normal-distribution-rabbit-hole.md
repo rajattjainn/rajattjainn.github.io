@@ -15,7 +15,7 @@ date: 22-05-12
 
 1. **Standard Normal Distribution (SND)** is a type of 'Normal Distribution' (ND). If in a ND, the mean is 0, and the standard deviation is 1, then the type of distribution is a SND.
 
-2. **Normal Distribution (ND)** is a probability distribution that is symmetric about the mean. Which implies that the data occurence is more frequent around the mean than data far away from the mean. in other words, you'll find more data around the mean than away from the mean. It should be noted that the the distribution is symmetric. Normal distribution is also known as **Gaussian Distribution**.
+2. **Normal Distribution (ND)** is a probability distribution that is symmetric about the mean. Also, and equally importantly, the data occurence is more frequent around the mean than data far away from the mean. In other words, you'll find more data around the mean than away from the mean. Normal distribution is also known as **Gaussian Distribution**.
 	- **Example:** If the final year results of a class follow a normal distribution with an average percentage of 60%, and standard deviation of 10% (i.e. a mean of 0.6, and SD of 0.1), we can say that 68.26% of students have percentages between 50% to 70%.
 
 	![Normal Distribution](/assets/imgs/normal_distribution.png) 
