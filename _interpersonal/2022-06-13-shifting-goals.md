@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Shifting Goals"
+description: ""
+
+---
+
+As mentioned in the guide for [GAN(s)](/_tech/2022-06-07-gans.html), I was supposed to start with CAAE. I did read the paper and was able to work out the underlying Math all by myself. I was also able to understand the paper with no blog explaining it in a step by step fashion. This gave a boost to my confidence. <br><br>But as I was about to start coding, my attention moved to 3D world. I got hold of a paper titled **SoftGroup for 3D Instance Segmentation on Point Clouds**. And I realised it'd be a better idea to start working on 3D straightaway, given that that's the kind of work I'd prefer ultimately. <br>
+I started reading the paper and have almost completed reading it multiple times. Right now I am going through the last iteration of reading, having understood almost 80%-90% of it. The authors have also open-sourced the code, and it's written in PyTorch. <br>
+Earlier, the plan was to write the code from scratch all by myself, referring to authors' code whenever I got stuck. Now, however I am contemplating a different strategy. I could give a shot at writing the code, but I think it'll make more sense to read their code before. There are couple of reasons behind this change of approach:
+1. I am still a bit rusty when it comes to coding. Sure, I can get the work completed, but there's a question of elegance as well - coding the right way. Reading a code which is much superior than mine will help me pick up something from their work.
+2. Though I have understood the theory, I still don't have any clue on how certain things are implemented. The world of 3D is different from 2D. And while this will always be true for my future projects, the gap will reduce as I code more. If I decide to reproduce the paper all by myself, I will be forced to look online for every other implementation - like sparse convolution, or how to use a point cloud input, or how to voxelise. I don't even know how 3D data is structured. This will take up a lot of time.
+
+I think a better strategy will be to read the code and absorb all that I can absorb. Post that, I'll move to a different research paper in 3D domain and reproduce that paper all by myself. And once that is done, I'll probably come back to this paper again and reproduce it all by myself. That way, whatever impression I would have had of the authors' code would have diminshed, and the work I'll do would be much more authentic. Like the Ship of Theseus, we could debate how much of it is theirs and how much mine, but irrespectively, I would have learned a thing or two in the process. 
