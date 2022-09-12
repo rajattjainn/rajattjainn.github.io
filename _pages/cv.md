@@ -3,6 +3,7 @@ layout: cv
 title: C Vitae
 permalink: /cv/
 ---
+## Curriculum Vitae
 
 
 Below is a detailed summary of my technical experience. My latest resume can be downloaded from <a href="/assets/cv.pdf">here</a>. 

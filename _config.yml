@@ -23,16 +23,16 @@ github_username:  rajattjainnn
 
 
 header_pages:
-  - _pages/guides.md
-  - _pages/tech.md
+  - _pages/integral.md
+  - _pages/sciences.md
   - _pages/interpersonal.md
   - _pages/creatives.md
   - _pages/cv.md
 
 collections:
-  guides:
+  integral:
     output: true
-  tech:
+  sciences:
     output: true
   interpersonal:
     output: true
@@ -41,7 +41,7 @@ collections:
 
 include:
   - _pages
-  - _tech
+  - _sciences
 
 
 defaults:
