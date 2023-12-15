@@ -1,0 +1,5 @@
+1. Install gem
+    https://jekyllrb.com/docs/installation/
+2. Set up Github Pages
+    https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll
+3. 
