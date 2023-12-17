@@ -3,3 +3,6 @@
 2. Set up Github Pages
     https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll
 3. 
+
+
+bundle exec jekyll serve
