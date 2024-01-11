@@ -12,7 +12,9 @@ layout: default
 
     <ul class="post-list">
       {%- for post in posts -%}
+      {% unless post.tags contains "hide" %}
       <li> <span class="post-meta">{{ post.date | date: "%B %-d %Y" }}</span> <a class="post-link" href="{{ post.url | relative_url }}"> {{ post.title | escape }} </a></li>
+      {% endunless %}
       {%- endfor -%}
     </ul>
   {%- endif -%}
