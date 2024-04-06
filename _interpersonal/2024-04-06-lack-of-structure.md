@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "(Lack of) Structure"
+tag: "hide"
 description: ""
 date: 24-04-06
 ---
