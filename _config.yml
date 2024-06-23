@@ -23,16 +23,16 @@ github_username:  rajattjainnn
 
 
 header_pages:
-  - _pages/integral.md
-  - _pages/sciences.md
-  - _pages/interpersonal.md
+#  - _pages/integral.md
+  - _pages/log.md
+#  - _pages/interpersonal.md
   - _pages/creatives.md
   - _pages/cv.md
 
 collections:
   integral:
     output: true
-  sciences:
+  log:
     output: true
   interpersonal:
     output: true
@@ -41,7 +41,7 @@ collections:
 
 include:
   - _pages
-  - _sciences
+  - _log
 
 
 defaults:

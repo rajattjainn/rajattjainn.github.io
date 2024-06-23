@@ -7,8 +7,8 @@ layout: default
   {{ content }}
 
   
-  {%- if site.sciences.size > 0 -%}
-  {% assign posts = site.sciences | sort: 'date' | reverse %}
+  {%- if site.log.size > 0 -%}
+  {% assign posts = site.log | sort: 'date' | reverse %}
 
     <ul class="post-list">
       {%- for post in posts -%}
